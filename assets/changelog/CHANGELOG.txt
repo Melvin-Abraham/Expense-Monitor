@@ -1,0 +1,10 @@
+# 2.0 MAJOR
+
+- Improved overall UX Design
+- Added Settings
+- Added Cloud Backup Feature
+- Tapping on a record now shows expanded details in a card interface
+- Included Currency Support
+- Added "Unpaid" as a payment mode option
+- Adding notes to your expense records is now supported
+- Minor Bug Fixes

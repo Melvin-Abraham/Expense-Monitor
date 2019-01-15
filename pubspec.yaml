@@ -7,6 +7,15 @@ dependencies:
     
   path_provider: "^0.4.1"
   simple_permissions: "^0.1.9"
+  flutter_sticky_header: "^0.3.4"
+  flare_flutter: "^1.0.4"
+  url_launcher: "^4.0.2"
+  google_sign_in: "^3.2.4"
+  firebase_auth: "^0.6.6"
+  cloud_firestore: "^0.7.4"
+  connectivity: "^0.3.2"
+  flushbar: "^1.2.0"
+  package_info: "^0.3.2"
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -25,11 +34,26 @@ flutter:
   fonts:
   - family: ProductSans
     fonts:
-      - asset: fonts/Product-Sans-Regular.ttf
-      - asset: fonts/Product-Sans-Bold.ttf
+      - asset: assets/fonts/Product-Sans-Regular.ttf
+      - asset: assets/fonts/Product-Sans-Bold.ttf
         weight: 700
-      - asset: fonts/Product-Sans-Italic.ttf
+      - asset: assets/fonts/Product-Sans-Italic.ttf
         style: italic
+
+  assets:
+    - assets/
+    - assets/license.png
+    - assets/license_color.png
+    - assets/purple-ink-in-water.jpg
+    - assets/favicon.png
+    - assets/google-favicon.png
+    - assets/github-logo.png
+    - assets/changelog_back@2x.png
+    - assets/changelog_mid@2x.png
+    - assets/anim/BrokenHeart.flr
+    - assets/json/currency_list.json
+    - assets/license/LICENSE
+    - assets/changelog/CHANGELOG.txt
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
